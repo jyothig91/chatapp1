@@ -35,10 +35,11 @@ const App = () => {
             return (
               <div key={elem.id}>
               
-               <div>  
-            <div className="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil" />  
-             <p className="time">   <b>{elem.user}</b>{elem.Time} </p></div>
-             </div>
+                 
+             <div className="incoming_msg_img">
+            <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil" />  
+             <p className="time">  <b>{elem.user}</b>{elem.Time} </p>
+             </div> 
                 <p className="message">
                   {" "}
                   {elem.message}
@@ -57,10 +58,7 @@ const App = () => {
             );
           })}
           <form className="form" onSubmit={messageSubmit}>
-            <input
-              type="text"
-              placeholder="Type Message"
-              value={message}
+            <input type="text" placeholder="Type Message" value={message}
               onChange={(e) => setmessage(e.target.value)}
               autoFocus={true}
             />
