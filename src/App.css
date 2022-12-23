@@ -1,0 +1,97 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.maindiv{
+  width:32%;
+  height:700px;
+  background-color: rgb(230, 238, 243);
+  position: relative;
+  left: 520px;
+  top: 10px;
+  border-radius: 15px;
+
+  
+}
+
+.intro{
+  padding: 10px;
+}
+.message{
+  background-color:white;
+  border-radius: 10px;
+  width: 130px;
+  padding: 3px;
+  
+  overflow-wrap:normal;
+}
+.head{
+  
+  margin:auto;
+  padding:10px
+}
+
+
+.form{
+  position: fixed;
+  top:600px;
+}
+input[type="text"]{
+  width: 340px;
+  padding: 8px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+button{
+  
+  padding: 5px;
+  margin-left: 5px;
+  size: 10px;
+  background-color: rgb(115, 175, 175);
+  border-radius: 15px;
+  padding: 8px;
+}
+button:hover{
+  background-color: antiquewhite;
+}
+ .fa-thumbs-up{
+  position:relative;
+  left: 330px;
+  top: 8px;
+  color: rgb(255, 145, 0);
+  size: 25px;
+}
+.time{
+ 
+   font-size: 10px;
+  margin-left: 0px; 
+ 
+	
+ 
+}
+b{
+  
+  font-size: 20px;
+  margin-left: 10px;
+  
+  
+}
+.count{
+  font-size: 10px;
+  color: black;
+  margin-left: 7px;
+}
+
+.incoming_msg_img {
+/* display:inline-block; */
+	margin:2px;
+	width: 5%;
+  
+}
+
+.incoming_msg_img img {
+	width: 100%;
+}
